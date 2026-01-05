@@ -1,0 +1,231 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    left:0;
+    right:0;
+    z-index: 9999;
+    background-color: white;
+    display: flex;
+    flex: 1;
+}
+.logo-style{
+    padding-left:2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 250px;
+    height:60px;
+  
+}
+.menu-bar {
+  display: flex;
+  gap: 0.3rem;
+  list-style: none;
+  padding: 2rem;
+  margin: 0;
+}
+
+.menu-bar >li{
+    display: inline;
+    padding: 0 1rem;
+    padding-top: 1rem;
+     justify-content: center;
+
+}
+.menu-bar >li >a{
+    text-decoration: none;
+    padding: 2.1rem 10px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+*{
+    font-family: Helvetica;
+}
+.menu-bar > li >a:hover{
+    background-color: #c8e6c9;
+    color:#046d38;
+}
+
+.f-style{
+    color:#326196;
+    font-size: 1.5rem;
+}
+.l-style{
+    font-size :32px; 
+    color: #1c6fc0;
+    border-radius:5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.dmart-style{
+ width:15%;
+ height: 80px;
+ margin: -2rem;
+}
+marquee{
+    margin-top: 5.5rem;
+    background-color: #04BC5B;
+    font-size: 16px;
+    color:aliceblue;
+    height: 16px;
+    padding:1.4rem;
+     /* position:relative;
+     overflow: hidden; */
+}
+marque > a {
+    color: rgb(43,43,223);
+}
+#banner_image{
+    width:100%;
+    margin-top: -1rem;
+  justify-content: center;
+}
+.quick-link-sections{
+    margin-top: 1rem;
+    text-align: center;
+}
+#span1-style{
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    border-bottom-color: #046d38;
+    padding-bottom: 2px;
+    font-size: 18px;   
+}
+.section1-style{
+    box-shadow: 0 0.2px 0.2px 0.2px;
+    background-color: white;
+    margin: 2rem;
+    border-radius: 10px;
+    height:150px;
+}
+#img2-style{
+    width:32%;
+    height:150px;
+    float:left;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.article1-style{
+    padding-top: 2px;
+    padding-left: 28rem;
+}
+.article-btn-style{
+      padding-left: 28rem;
+      margin-top:1.3rem;
+}
+.article-btn-style > button{
+    padding: 10px;
+    background-color: #046d38;
+    text-transform: uppercase;
+    color:aliceblue;
+    border-radius: 25px;
+    border:#046d38;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.02857em;
+}
+#img3-style{
+    width: 32%;
+     height:150px;
+    float:right;
+    border-radius: 10px;
+    margin-top:-144.2px ;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.article2-style{
+    padding-top: 2px;
+    padding-left: 1rem;
+}
+.parent-section{
+    display: flex;
+
+}
+.store-cards-style{
+     box-shadow: 0 1px 1px 1px;
+    background-color: white;
+    margin: 2rem;
+    width:30%;
+    margin-left:2rem;
+    border-radius: 5px;
+    height:286px;
+    margin-top: 2rem;
+}
+.store-img-style{
+    width:100%;
+    height:200px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top:0.4rem;
+}
+div > p{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    margin-top: 0;
+}
+div > div{
+    padding-left: 2rem;
+    margin-top: -20px;
+    line-height: 2;
+}
+.grocery-img-style{
+    margin-left: 0;
+    margin-top: 2rem;
+    display: flex;
+    justify-content:space-evenly;
+    margin-right: 2rem;
+    
+}
+.grocery-items-style {
+    flex: 1 1 calc(25% - 20px); /* 4 items per row with gap */
+    box-sizing: border-box;
+    position: relative;
+    overflow: visible; /* ensures image and label aren't cut */
+}
+
+.grocery-img-style > div > img{
+    width:95%;
+    border-radius: 10px;
+    margin-left: 2rem;
+    height: 300px;
+}
+.grocery-items-style > p{
+  
+    text-align: center;
+    margin-left: 2rem;
+    background-color: #374553;
+    margin-top:-2.4rem;
+    z-index: 1;
+    position:relative;
+    opacity: 0.8;
+    width: 90%;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: 600;
+    padding: 8px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -1rem;
+    background-color: #374553;
+    z-index: 1;
+    position: relative;
+    padding: 15px;
+
+}
+.footer-content > li{
+    display: inline;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+
